@@ -8,7 +8,7 @@ Source taken from the release version of https://github.com/webfp/tor-browser-cr
 
 **Adapted to use phantomjs instead of firefox, so it can run on a headless linux server.**
 
-It is best to run the code in a container like docker. A docker file is provided, and a docker image is available at https://hub.docker.com/r/pankajb64/webfp-crawler-phantomjs/
+It is best to run the code in a container like docker. A docker file is provided, and a docker image is available at https://hub.docker.com/r/pankajb64/webfp-crawler-phantomjs/ **The docker image needs to be run in privileged mode as it modifies local network interface settings.**
 
 Source code is available under the same license (GPL2) as it was originally published.
 
