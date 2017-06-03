@@ -2,18 +2,20 @@
 
 A python crawler for crawling Tor and collect network traces using wireshark. Used to create dataset for testing Website Fingerprinting (WF) attacks on Tor.
 
-Ref - http://www1.icsi.berkeley.edu/~sadia/papers/ccs-webfp-final.pdf
+Ref - M. Juarez, S. Afroz, G. Acar, C. Diaz, R. Greenstadt, “A Critical Analysis of Website Fingerprinting Attacks”, in the proceedings of the ACM Conference on Computer and Communications Security (CCS), pp. 263-274, ACM, 2014. http://www1.icsi.berkeley.edu/~sadia/papers/ccs-webfp-final.pdf
+
 Source taken from the release version of https://github.com/webfp/tor-browser-crawler (see https://github.com/webfp/tor-browser-crawler/releases/tag/webfp-paper)
 
-Adapted to use phantomjs instead of firefox, so it can run on a headless linux server.
+**Adapted to use phantomjs instead of firefox, so it can run on a headless linux server.**
 
-It is best to run the code in a container like docker. A docker file is provided, and a docker image is available https://hub.docker.com/r/pankajb64/webfp-crawler-phantomjs/
+It is best to run the code in a container like docker. A docker file is provided, and a docker image is available at https://hub.docker.com/r/pankajb64/webfp-crawler-phantomjs/
 
 Source code is available under the same license (GPL2) as it was originally published.
 
-Tested on Ubuntu 14.04 and Python 2.7
+**Tested on Ubuntu 14.04 and Python 2.7**
 
 The contents below are taken from the original README at https://github.com/webfp/tor-browser-crawler/blob/master/README.md
+
 Requirements
 ---------------
 * Linux packages: ```python tcpdump wireshark Xvfb```
