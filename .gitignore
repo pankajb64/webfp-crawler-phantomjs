@@ -1,0 +1,7 @@
+*.pyc
+tbb/
+results/
+.project
+.pydevproject
+__pycache__
+tor-browser-crawler-webfp-paper/test/files/

@@ -1,0 +1,31 @@
+PhantomJS is launching GhostDriver...
+[INFO  - 2017-06-01T23:35:52.148Z] GhostDriver - Main - running on port 48018
+[INFO  - 2017-06-01T23:35:53.081Z] Session [0d4ee070-4723-11e7-8a80-ab2d67a032e7] - CONSTRUCTOR - Desired Capabilities: {"browserConnectionEnabled":true,"javascriptEnabled":true,"databaseEnabled":true,"platform":"ANY","browserName":"phantomjs","version":"","handlesAlerts":true}
+[INFO  - 2017-06-01T23:35:53.081Z] Session [0d4ee070-4723-11e7-8a80-ab2d67a032e7] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-01T23:35:53.081Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0d4ee070-4723-11e7-8a80-ab2d67a032e7
+[ERROR - 2017-06-01T23:35:57.111Z] RouterReqHand - _handle - Thrown => {
+  "message": "Request => {\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Connection\":\"close\",\"Content-Length\":\"73\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:48018\",\"User-Agent\":\"Python http auth\"},\"httpVersion\":\"1.1\",\"method\":\"POST\",\"post\":\"{\\\"pageLoad\\\": 120000, \\\"sessionId\\\": \\\"0d4ee070-4723-11e7-8a80-ab2d67a032e7\\\"}\",\"url\":\"/timeouts\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"timeouts\",\"directory\":\"/\",\"path\":\"/timeouts\",\"relative\":\"/timeouts\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/timeouts\",\"queryKey\":{},\"chunks\":[\"timeouts\"]},\"urlOriginal\":\"/session/0d4ee070-4723-11e7-8a80-ab2d67a032e7/timeouts\"}",
+  "name": "Missing Command Parameter",
+  "line": 519,
+  "sourceId": 140184685282688,
+  "sourceURL": ":/ghostdriver/request_handlers/session_request_handler.js",
+  "stack": "Missing Command Parameter: Request => {\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Connection\":\"close\",\"Content-Length\":\"73\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:48018\",\"User-Agent\":\"Python http auth\"},\"httpVersion\":\"1.1\",\"method\":\"POST\",\"post\":\"{\\\"pageLoad\\\": 120000, \\\"sessionId\\\": \\\"0d4ee070-4723-11e7-8a80-ab2d67a032e7\\\"}\",\"url\":\"/timeouts\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"timeouts\",\"directory\":\"/\",\"path\":\"/timeouts\",\"relative\":\"/timeouts\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/timeouts\",\"queryKey\":{},\"chunks\":[\"timeouts\"]},\"urlOriginal\":\"/session/0d4ee070-4723-11e7-8a80-ab2d67a032e7/timeouts\"}\n    at :/ghostdriver/request_handlers/session_request_handler.js:519\n    at :/ghostdriver/request_handlers/session_request_handler.js:143\n    at :/ghostdriver/request_handlers/request_handler.js:61\n    at :/ghostdriver/request_handlers/router_request_handler.js:82",
+  "stackArray": [
+    {
+      "sourceURL": ":/ghostdriver/request_handlers/session_request_handler.js",
+      "line": 519
+    },
+    {
+      "sourceURL": ":/ghostdriver/request_handlers/session_request_handler.js",
+      "line": 143
+    },
+    {
+      "sourceURL": ":/ghostdriver/request_handlers/request_handler.js",
+      "line": 61
+    },
+    {
+      "sourceURL": ":/ghostdriver/request_handlers/router_request_handler.js",
+      "line": 82
+    }
+  ]
+}
