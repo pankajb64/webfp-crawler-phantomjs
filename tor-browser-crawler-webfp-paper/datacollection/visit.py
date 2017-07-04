@@ -11,7 +11,7 @@ import utils as ut
 
 BAREBONE_HOME_PAGE = "file://%s/barebones.html" % cm.ETC_DIR
 
-VBOX_GATEWAY_IP = "172.30.16.1"  # default gateway IP of VirtualBox
+VBOX_GATEWAY_IP = "10.0.2.2"  # default gateway IP of VirtualBox
 LXC_GATEWAY_IP = "172.17.0.1"  # default gateway IP of LXC
 LOCALHOST_IP = "127.0.0.1"  # default localhost IP
 

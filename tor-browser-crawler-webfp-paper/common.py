@@ -100,7 +100,7 @@ CONTROLLER_PORT = 9051
 MAX_ENTRY_GUARDS = "1"
 
 # defaults for batch and instance numbers
-NUM_BATCHES = 10
+NUM_BATCHES = 2
 NUM_INSTANCES = 4
 MAX_SITES_PER_TOR_PROCESS = 100  # reset tor process after crawling 100 sites
 
