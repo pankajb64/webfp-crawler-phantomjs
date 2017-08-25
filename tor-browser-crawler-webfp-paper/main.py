@@ -108,4 +108,4 @@ if __name__ == '__main__':
         wl_log.error("Exception: \n%s"
                      % (traceback.format_exc()))
     finally:
-        crawler.stop_crawl()
+        crawler.stop_crawl(pack_results=False)

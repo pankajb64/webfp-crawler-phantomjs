@@ -1,10 +1,124 @@
-1496347191284	geckodriver	INFO	Listening on 127.0.0.1:34372
-1496347228148	geckodriver	INFO	Listening on 127.0.0.1:55332
-1496347466839	geckodriver	INFO	Listening on 127.0.0.1:35153
-1496356387254	geckodriver	INFO	Listening on 127.0.0.1:36896
-1496357673729	geckodriver	INFO	Listening on 127.0.0.1:40359
-1496357833811	geckodriver	INFO	Listening on 127.0.0.1:42183
-1496357890331	geckodriver	INFO	Listening on 127.0.0.1:50951
-1496357909667	geckodriver	INFO	Listening on 127.0.0.1:53938
-1496357946477	geckodriver	INFO	Listening on 127.0.0.1:50198
-1496358121659	geckodriver	INFO	Listening on 127.0.0.1:60744
+1500328561044	geckodriver	INFO	geckodriver 0.18.0
+1500328561047	geckodriver	INFO	Listening on 127.0.0.1:59677
+1500328562588	geckodriver::marionette	INFO	Starting browser /home/pankaj/wf_is/webfp-crawler-phantomjs/tor-browser-crawler-webfp-paper/tbb/tor-browser-linux64-6.5.2_en-US/Browser/firefox with args ["-marionette"]
+1500328562800	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1500328562800	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1500328562800	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1500328562900	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1500328562900	addons.manager	DEBUG	Starting provider: XPIProvider
+1500328562900	addons.xpi	DEBUG	startup
+1500328562900	addons.xpi	INFO	Mapping {73a6fe31-595d-460b-a920-fcc0f8843232} to /tmp/rust_mozprofile.65WNOk7gDoFe/extensions/{73a6fe31-595d-460b-a920-fcc0f8843232}.xpi
+1500328562900	addons.xpi	INFO	Mapping tor-launcher@torproject.org to /tmp/rust_mozprofile.65WNOk7gDoFe/extensions/tor-launcher@torproject.org.xpi
+1500328562900	addons.xpi	INFO	Mapping torbutton@torproject.org to /tmp/rust_mozprofile.65WNOk7gDoFe/extensions/torbutton@torproject.org.xpi
+1500328562900	addons.xpi	INFO	Mapping https-everywhere-eff@eff.org to /tmp/rust_mozprofile.65WNOk7gDoFe/extensions/https-everywhere-eff@eff.org.xpi
+1500328562900	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1500328562900	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /home/pankaj/wf_is/webfp-crawler-phantomjs/tor-browser-crawler-webfp-paper/tbb/tor-browser-linux64-6.5.2_en-US/Browser/browser/features/e10srollout@mozilla.org.xpi
+1500328562900	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /home/pankaj/wf_is/webfp-crawler-phantomjs/tor-browser-crawler-webfp-paper/tbb/tor-browser-linux64-6.5.2_en-US/Browser/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1500328562900	addons.xpi	DEBUG	checkForChanges
+1500328562900	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1500328562900	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"{73a6fe31-595d-460b-a920-fcc0f8843232}":{"d":"/home/pankaj/wf_is/webfp-crawler-phantomjs/tor-browser-crawler-webfp-paper/tbb/tor-browser-linux64-6.5.2_en-US/Browser/TorBrowser/Data/Browser/profile.default/extensions/{73a6fe31-595d-460b-a920-fcc0f8843232}.xpi","e":true,"v":"5.0.5","st":1500326959000},"tor-launcher@torproject.org":{"d":"/home/pankaj/wf_is/webfp-crawler-phantomjs/tor-browser-crawler-webfp-paper/tbb/tor-browser-linux64-6.5.2_en-US/Browser/TorBrowser/Data/Browser/profile.default/extensions/tor-launcher@torproject.org.xpi","e":true,"v":"0.2.12.2","st":1500326959000},"torbutton@torproject.org":{"d":"/home/pankaj/wf_is/webfp-crawler-phantomjs/tor-browser-crawler-webfp-paper/tbb/tor-browser-linux64-6.5.2_en-US/Browser/TorBrowser/Data/Browser/profile.default/extensions/torbutton@torproject.org.xpi","e":true,"v":"1.9.7.4","st":1500326959000},"https-everywhere-eff@eff.org":{"d":"/home/pankaj/wf_is/webfp-crawler-phantomjs/tor-browser-crawler-webfp-paper/tbb/tor-browser-linux64-6.5.2_en-US/Browser/TorBrowser/Data/Browser/profile.default/extensions/https-everywhere-eff@eff.org.xpi","e":true,"v":"5.2.19","st":1500326960000}},"app-system-defaults":{"e10srollout@mozilla.org":{"d":"/home/pankaj/wf_is/webfp-crawler-phantomjs/tor-browser-crawler-webfp-paper/tbb/tor-browser-linux64-6.5.2_en-US/Browser/browser/features/e10srollout@mozilla.org.xpi","e":true,"v":"1.10","st":1500326957000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/home/pankaj/wf_is/webfp-crawler-phantomjs/tor-browser-crawler-webfp-paper/tbb/tor-browser-linux64-6.5.2_en-US/Browser/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","e":true,"v":"52.2.0","st":1500326957000}}}
+1500328562900	addons.xpi	DEBUG	getModTime: Recursive scan of {73a6fe31-595d-460b-a920-fcc0f8843232}
+1500328562900	addons.xpi	DEBUG	Changed add-on {73a6fe31-595d-460b-a920-fcc0f8843232} in app-profile
+1500328562900	addons.xpi	DEBUG	getModTime: Recursive scan of tor-launcher@torproject.org
+1500328562900	addons.xpi	DEBUG	Changed add-on tor-launcher@torproject.org in app-profile
+1500328562900	addons.xpi	DEBUG	getModTime: Recursive scan of torbutton@torproject.org
+1500328562900	addons.xpi	DEBUG	Changed add-on torbutton@torproject.org in app-profile
+1500328562900	addons.xpi	DEBUG	getModTime: Recursive scan of https-everywhere-eff@eff.org
+1500328562900	addons.xpi	DEBUG	Changed add-on https-everywhere-eff@eff.org in app-profile
+1500328562900	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1500328562900	addons.xpi	DEBUG	Changed add-on e10srollout@mozilla.org in app-system-defaults
+1500328562900	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1500328562900	addons.xpi	DEBUG	Changed add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1500328562900	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-profile":{"{73a6fe31-595d-460b-a920-fcc0f8843232}":{"d":"/tmp/rust_mozprofile.65WNOk7gDoFe/extensions/{73a6fe31-595d-460b-a920-fcc0f8843232}.xpi","e":true,"v":"5.0.5","st":1500328562000},"tor-launcher@torproject.org":{"d":"/tmp/rust_mozprofile.65WNOk7gDoFe/extensions/tor-launcher@torproject.org.xpi","e":true,"v":"0.2.12.2","st":1500328562000},"torbutton@torproject.org":{"d":"/tmp/rust_mozprofile.65WNOk7gDoFe/extensions/torbutton@torproject.org.xpi","e":true,"v":"1.9.7.4","st":1500328562000},"https-everywhere-eff@eff.org":{"d":"/tmp/rust_mozprofile.65WNOk7gDoFe/extensions/https-everywhere-eff@eff.org.xpi","e":true,"v":"5.2.19","st":1500328562000}},"app-system-defaults":{"e10srollout@mozilla.org":{"d":"/home/pankaj/wf_is/webfp-crawler-phantomjs/tor-browser-crawler-webfp-paper/tbb/tor-browser-linux64-6.5.2_en-US/Browser/browser/features/e10srollout@mozilla.org.xpi","e":true,"v":"1.10","st":1500326957000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/home/pankaj/wf_is/webfp-crawler-phantomjs/tor-browser-crawler-webfp-paper/tbb/tor-browser-linux64-6.5.2_en-US/Browser/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","e":true,"v":"52.2.0","st":1500326957000}}}
+1500328562900	addons.xpi-utils	DEBUG	Opening XPI database /tmp/rust_mozprofile.65WNOk7gDoFe/extensions.json
+1500328562900	addons.xpi-utils	DEBUG	Successfully read XPI database
+1500328562900	addons.xpi-utils	DEBUG	Add-on torbutton@torproject.org modified in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1500328562900	DeferredSave.extensions.json	DEBUG	Save changes
+1500328562900	DeferredSave.extensions.json	DEBUG	Save changes
+1500328562900	addons.xpi-utils	DEBUG	Add-on tor-launcher@torproject.org modified in app-profile
+1500328562900	DeferredSave.extensions.json	DEBUG	Starting timer
+1500328562900	DeferredSave.extensions.json	DEBUG	Save changes
+1500328562900	DeferredSave.extensions.json	DEBUG	Save changes
+1500328562900	addons.xpi-utils	DEBUG	Add-on {73a6fe31-595d-460b-a920-fcc0f8843232} modified in app-profile
+1500328562900	DeferredSave.extensions.json	DEBUG	Starting write
+1500328562900	DeferredSave.extensions.json	DEBUG	Save changes
+1500328562900	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+1500328563000	DeferredSave.extensions.json	DEBUG	Save changes
+1500328563000	addons.xpi-utils	DEBUG	Add-on https-everywhere-eff@eff.org modified in app-profile
+1500328563000	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500328563000	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1500328563000	DeferredSave.extensions.json	DEBUG	Starting timer
+1500328563000	DeferredSave.extensions.json	DEBUG	Starting write
+1500328563000	DeferredSave.extensions.json	DEBUG	Write succeeded
+1500328563100	DeferredSave.extensions.json	DEBUG	Save changes
+1500328563100	DeferredSave.extensions.json	DEBUG	Save changes
+1500328563100	addons.manager	DEBUG	Registering startup change 'changed' for torbutton@torproject.org
+1500328563100	addons.xpi-utils	DEBUG	Make addon app-profile:torbutton@torproject.org visible
+1500328563100	DeferredSave.extensions.json	DEBUG	Save changes
+1500328563100	addons.manager	DEBUG	Registering startup change 'changed' for tor-launcher@torproject.org
+1500328563100	addons.xpi-utils	DEBUG	Make addon app-profile:tor-launcher@torproject.org visible
+1500328563100	DeferredSave.extensions.json	DEBUG	Save changes
+1500328563100	addons.manager	DEBUG	Registering startup change 'changed' for {73a6fe31-595d-460b-a920-fcc0f8843232}
+1500328563100	addons.xpi-utils	DEBUG	Make addon app-profile:{73a6fe31-595d-460b-a920-fcc0f8843232} visible
+1500328563100	DeferredSave.extensions.json	DEBUG	Save changes
+1500328563100	addons.manager	DEBUG	Registering startup change 'changed' for https-everywhere-eff@eff.org
+1500328563100	addons.xpi-utils	DEBUG	Make addon app-profile:https-everywhere-eff@eff.org visible
+1500328563100	DeferredSave.extensions.json	DEBUG	Save changes
+1500328563100	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1500328563100	DeferredSave.extensions.json	DEBUG	Save changes
+1500328563100	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1500328563100	DeferredSave.extensions.json	DEBUG	Save changes
+1500328563100	addons.xpi	DEBUG	Updating XPIState for {"id":"torbutton@torproject.org","syncGUID":"cxvROhrGYeAB","location":"app-profile","version":"1.9.7.4","type":"extension","internalName":null,"updateURL":"data:text/plain,","updateKey":"-","optionsURL":"chrome://torbutton/content/preferences.xul","optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://torbutton/skin/tor.png","icon64URL":null,"defaultLocale":{"name":"Torbutton","description":null,"creator":"Mike Perry","homepageURL":"https://www.torproject.org/projects/torbrowser.html.en"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/tmp/rust_mozprofile.65WNOk7gDoFe/extensions/torbutton@torproject.org.xpi","installDate":946684800000,"updateDate":1500328562000,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":1719042,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"45.0","maxVersion":"10000.0"}],"targetPlatforms":[],"multiprocessCompatible":true,"signedState":0,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1500328563100	addons.xpi	DEBUG	Updating XPIState for {"id":"tor-launcher@torproject.org","syncGUID":"xUFvDe1sv_Gk","location":"app-profile","version":"0.2.12.2","type":"extension","internalName":null,"updateURL":"data:text/plain,","updateKey":"-","optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"TorLauncher","description":null,"creator":"The Tor Project, Inc.","homepageURL":"https://www.torproject.org/projects/torbrowser.html","contributors":["Pearl Crescent, LLC"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/tmp/rust_mozprofile.65WNOk7gDoFe/extensions/tor-launcher@torproject.org.xpi","installDate":946684800000,"updateDate":1500328562000,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":1832741,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"24.0","maxVersion":"*.*.*"},{"id":"{3550f703-e582-4d05-9a08-453d09bdfdc6}","minVersion":"10.0","maxVersion":"*.*.*"},{"id":"{33cb9019-c295-46dd-be21-8c4936574bee}","minVersion":"1.4","maxVersion":"*.*.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"signedState":0,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1500328563100	addons.xpi	DEBUG	Updating XPIState for {"id":"{73a6fe31-595d-460b-a920-fcc0f8843232}","syncGUID":"XgY61D-FuchS","location":"app-profile","version":"5.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":"chrome://noscript/content/noscriptOptions.xul","optionsType":null,"aboutURL":"chrome://noscript/content/about.xul","icons":{},"iconURL":"chrome://noscript/skin/icon32.png","icon64URL":"chrome://noscript/skin/icon64.png","defaultLocale":{"name":"NoScript","description":"Extra protection for your Firefox: NoScript allows JavaScript, Java (and other plugins) only for trusted domains of your choice (e.g. your home-banking web site). This whitelist based pre-emptive blocking approach  prevents exploitation of security vulnerabilities (known and even unknown!) with no loss of functionality... Experts will agree: Firefox is really safer with NoScript :-)","creator":"Giorgio Maone","homepageURL":"https://noscript.net","contributors":["aivo (Estonian translation)","Alberto Martínez, EduLeo & Urko (Spanish translation)","Algimantas Margevičius (Lithuanian translation)","Asaf Bartov & baryoni (Hebrew translation)","Alf and Liesbeth (Dutch translation)","Alexander Sokolov, Sergei Smirnov and negodnik (Russian translation)","Batuhan Çetin and eveterinary (Turkish translation)","Baurzhan Muftakhidinov (Kazakh translation)","Beerboy & Haebaru (Japanese translation)","Carsten Winkler (Danish translation)","Chiou Po-Jung (Chinese Traditional translation)","Dario Ornelas (Portuguese translation)","drAcOniS and Petr Jirsa (Czech translation)","Drive DRKA and Dzmitry Drazdou (Belarusian translation)","Engin Yazılan, Erkan Kaplan & Fathi  (Turkish translation)","Georgi Marchev (Bulgarian translation)","Håvard Mork (Norwegian bokmål translation)","Hwasung Kim (Places bookmarklet patch)","Ivan Pesic, dragan021 (Serbian translation)","Ivan Jonoski (Macedonian translation)","Jameka (Swedish translation)","Joan-Josep Bargues (Catalan translation)","Joshua Issac (Malay translation)","Khaled Hosny & Nassim Dhaher (Arabic translation)","Krcko (Croatian translation)","Ian Moody (English GB translation)","LocaLiceR (Hungarian translation)","Lukasz Biegaj & Teo (Polish translation)","Michela Venuto (inspiration)","Mika Pirinen (Finnish translation)","Mindaugas Jakutis (Lithuanian translation)","Mikes Kaszmán István (Hungarian translation)","MozUA (Ukrainian translation)","Pedram Veisi (Persian translation)","Peter Bradley (Welsh translation)","Raryel Costa Souza (Brazilian Portuguese)","regfreak (Indonesian translation)","roebek (Galician translation)","Qen (Thai translation)","seaousak (Korean translation)","SlovakSoft (Slovak translation)","Sonickydon (Greek translation)","Stiepan A. Kovac (Croatian translation)","swarnava (Bengali translation)","Tomaz Macus (Slovenian translation)","Thomas Weber & Volker Hable (German translation)","tonynguyen and loveleeyoungae (Vietnamese translation)","x10firefox and Ultravioletu (Romanian translation)","Xavier Robin & BlackJack (French translation)","X.F Mao & George C. Tsoi (Simplified Chinese)"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/tmp/rust_mozprofile.65WNOk7gDoFe/extensions/{73a6fe31-595d-460b-a920-fcc0f8843232}.xpi","installDate":946684800000,"updateDate":1500328562000,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":2129125,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"45.0","maxVersion":"*"},{"id":"{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}","minVersion":"2.42","maxVersion":"*"},{"id":"{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}","minVersion":"27.0.2","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"signedState":2,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1500328563100	addons.xpi	DEBUG	Updating XPIState for {"id":"https-everywhere-eff@eff.org","syncGUID":"_DyCflCNgzyb","location":"app-profile","version":"5.2.19","type":"extension","internalName":null,"updateURL":"https://www.eff.org/files/https-everywhere-eff-update-2048.rdf","updateKey":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6MR8W/galdxnpGqBsYbqOzQb2eyW15YFjDDEMI0ZOzt8f504obNs920lDnpPD2/KqgsfjOgw2K7xWDJIj/18xUvWPk3LDkrnokNiRkA3KOx3W6fHycKL+zID7zy+xZYBuh2fLyQtWV1VGQ45iNRp9+Zo7rH86cdfgkdnWTlNSHyTLW9NbXvyv/E12bppPcEvgCTAQXgnDVJ0/sqmeiijn9tTFh03aM+R2V/21h8aTraAS24qiPCz6gkmYGC8yr6mglcnNoYbsLNYZ69zF1XHcXPduCPdPdfLlzVlKK1/U7hkA28eG3BIAMh6uJYBRJTpiGgaGdPd7YekUB8S6cy+CQIDAQAB","optionsURL":"chrome://https-everywhere/content/observatory-preferences.xul","optionsType":null,"aboutURL":"chrome://https-everywhere/content/about.xul","icons":{},"iconURL":"chrome://https-everywhere/skin/icon-active-48.png","icon64URL":null,"defaultLocale":{"name":"HTTPS Everywhere","description":"Encrypt the Web! Automatically use HTTPS security on many sites.","creator":"EFF Technologists","homepageURL":"https://www.eff.org/https-everywhere"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/tmp/rust_mozprofile.65WNOk7gDoFe/extensions/https-everywhere-eff@eff.org.xpi","installDate":946684800000,"updateDate":1500328562000,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":10786399,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"26.0","maxVersion":"40.0"},{"id":"{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}","minVersion":"2.17","maxVersion":"2.32"},{"id":"{3550f703-e582-4d05-9a08-453d09bdfdc6}","minVersion":"17.*","maxVersion":"35.*"},{"id":"{a79fe89b-6662-4ff4-8e88-09950ad4dfde}","minVersion":"0.1","maxVersion":"40.0"},{"id":"{aa3c5121-dab2-40e2-81ca-7ea25febc110}","minVersion":"26.0","maxVersion":"40.0"}],"targetPlatforms":[],"multiprocessCompatible":true,"signedState":2,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1500328563100	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{cae736cf-ae80-4149-a7b9-cc8900c200e4}","location":"app-system-defaults","version":"1.10","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/pankaj/wf_is/webfp-crawler-phantomjs/tor-browser-crawler-webfp-paper/tbb/tor-browser-linux64-6.5.2_en-US/Browser/browser/features/e10srollout@mozilla.org.xpi","installDate":1500326957000,"updateDate":1500326957000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8265,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.2.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+1500328563100	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"0KIGzoXsj43B","location":"app-global","version":"52.2.0","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/pankaj/wf_is/webfp-crawler-phantomjs/tor-browser-crawler-webfp-paper/tbb/tor-browser-linux64-6.5.2_en-US/Browser/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":946684800000,"updateDate":1500326957000,"applyBackgroundUpdates":1,"skinnable":true,"size":4932,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.2.0","maxVersion":"52.2.0"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false}
+1500328563100	DeferredSave.extensions.json	DEBUG	Save changes
+1500328563100	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1500328563100	addons.xpi-utils	DEBUG	Updating add-on states
+1500328563100	addons.xpi-utils	DEBUG	Writing add-ons list
+1500328563100	addons.xpi	DEBUG	Registering manifest for /home/pankaj/wf_is/webfp-crawler-phantomjs/tor-browser-crawler-webfp-paper/tbb/tor-browser-linux64-6.5.2_en-US/Browser/browser/features/e10srollout@mozilla.org.xpi
+1500328563100	addons.xpi	DEBUG	Loading bootstrap scope from /home/pankaj/wf_is/webfp-crawler-phantomjs/tor-browser-crawler-webfp-paper/tbb/tor-browser-linux64-6.5.2_en-US/Browser/browser/features/e10srollout@mozilla.org.xpi
+1500328563100	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.10
+1500328563100	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1500328563100	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1500328563100	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1500328563100	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1500328563100	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1500328563100	addons.manager	DEBUG	Starting provider: GMPProvider
+1500328563100	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1500328563100	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1500328563100	addons.manager	DEBUG	Starting provider: PluginProvider
+1500328563100	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1500328563100	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1500328563100	addons.manager	DEBUG	Completed startup sequence
+1500328563800	Marionette	INFO	Listening on port 40791
+1500328563800	DeferredSave.extensions.json	DEBUG	Starting timer
+1500328563900	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1500328563900	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1500328563900	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1500328563900	DeferredSave.extensions.json	DEBUG	Starting write
+1500328564000	Marionette	WARN	TLS certificate errors will be ignored for this session
+1500328564000	DeferredSave.extensions.json	DEBUG	Write succeeded
+JavaScript error: chrome://torbutton/content/tor-circuit-display.js, line 363: TypeError: myController is null
+1500328565200	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1500328565200	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1500328565200	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1500328584700	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.10
+[Parent 9720] WARNING: pipe error: Broken pipe: file /home/debian/build/tor-browser/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 685
+JavaScript error: chrome://noscript/content/Main.js, line 148: TypeError: this._disposeE10s is not a function
+1500328585000	addons.manager	DEBUG	shutdown
+1500328585000	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1500328585000	addons.xpi	DEBUG	shutdown
+1500328585000	addons.xpi-utils	DEBUG	shutdown
+1500328585000	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1500328585000	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1500328585000	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1500328585000	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1500328585000	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1500328585000	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1500328585000	addons.manager	DEBUG	Async provider shutdown done
+1500328640789	geckodriver	INFO	geckodriver 0.18.0
+1500328640792	geckodriver	INFO	Listening on 127.0.0.1:46727

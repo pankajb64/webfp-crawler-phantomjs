@@ -4,6 +4,7 @@ from selenium.common.exceptions import WebDriverException
 from selenium.webdriver import DesiredCapabilities
 from selenium.webdriver import firefox
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+from selenium.webdriver import phantomjs
 import shutil
 import socket
 from stem.control import Controller
@@ -60,7 +61,7 @@ class TorController(object):
                 config=self.torrc_dict,
                 init_msg_handler=self.tor_log_handler,
                 tor_cmd=cm.get_tor_bin_path(self.tbb_version),
-                timeout=270000
+                timeout=270
                 )
             self.controller = Controller.from_port()
             self.controller.authenticate()
@@ -98,12 +99,12 @@ class TorController(object):
             ut.cancel_timeout()
 
 
-class TorBrowserDriver(webdriver.Firefox, firefox.webdriver.RemoteWebDriver):
+class TorBrowserDriver(webdriver.PhantomJS, phantomjs.webdriver.RemoteWebDriver):
     def __init__(self, tbb_binary_path=None, tbb_profile_dir=None,
                  tbb_logfile_path=None,
                  tbb_version=cm.TBB_DEFAULT_VERSION, page_url="",
                  capture_screen=True):
-        #self.sessionId = None
+        #self.session_id = None
         self.is_running = False
         self.tbb_version = tbb_version
         self.export_lib_path()
@@ -153,17 +154,15 @@ class TorBrowserDriver(webdriver.Firefox, firefox.webdriver.RemoteWebDriver):
                                           logfile=tbb_logfile_path)
 
         # Initialize capabilities
-        self.capabilities = DesiredCapabilities.FIREFOX
-        #self.capabilities.update({'handlesAlerts': True,
-        #                          'databaseEnabled': True,
-        #                          'javascriptEnabled': True,
-        #                          'browserConnectionEnabled': True})
+        self.capabilities = DesiredCapabilities.PHANTOMJS
+        self.capabilities.update({'handlesAlerts': True,'databaseEnabled': True, 'browserConnectionEnabled': True, 'javascriptEnabled': True})                                  
+        #                        'javascriptEnabled': True}) #,'handlesAlerts': True,'databaseEnabled': True, 'browserConnectionEnabled': True
+        service_args = [ '--proxy=127.0.0.1:%s'%(cm.SOCKS_PORT), '--proxy-type=socks5',] 
 
         try:
             super(TorBrowserDriver, self)\
-                .__init__(firefox_profile=self.profile,
-                          firefox_binary=self.binary,
-                          capabilities=self.capabilities)
+                .__init__(executable_path="/usr/bin/phantomjs",
+                          desired_capabilities=self.capabilities, service_args=service_args)
             self.is_running = True
         except WebDriverException as error:
             wl_log.error("WebDriverException while connecting to Webdriver %s"
