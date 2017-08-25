@@ -1,5 +1,7 @@
 # webfp-crawler-phantomjs
 
+**Update - the repo has been modified since the first release to facilitate my work. If you want the phantomjs related code, check the release v1.0 [here](https://github.com/pankajb64/webfp-crawler-phantomjs/releases/tag/release-v1.0)**
+
 A python crawler for crawling Tor and collect network traces using wireshark. Used to create dataset for testing Website Fingerprinting (WF) attacks on Tor.
 
 Ref - M. Juarez, S. Afroz, G. Acar, C. Diaz, R. Greenstadt, “A Critical Analysis of Website Fingerprinting Attacks”, in the proceedings of the ACM Conference on Computer and Communications Security (CCS), pp. 263-274, ACM, 2014. http://www1.icsi.berkeley.edu/~sadia/papers/ccs-webfp-final.pdf
